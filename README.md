@@ -129,7 +129,7 @@ CytbX is a de novo designed four-helix bundle membrane protein originally engine
 
 ## Full Report
 
-The complete research report with detailed methodology, results, and discussion is available in [`report/research_report.pdf`](report/Computational Design( no first page).pdf).
+The complete research report with detailed methodology, results, and discussion is available in [`report/research_report.pdf`](report/Computational%20Design%20(no%20first%20page).pdf).
 
 ---
 
