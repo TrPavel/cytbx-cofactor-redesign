@@ -1,0 +1,30 @@
+# Rosetta-generated artefacts (build-specific)
+*.params
+grids/
+output/
+*.silent
+*.sc
+struct_*
+
+# SLURM job traces
+slurm-*.out
+
+# PyMOL session files (large, binary; regenerate from PDBs)
+*.pse
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.python-version
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Excel lock files
+~$*.xlsx
+~$*.docx

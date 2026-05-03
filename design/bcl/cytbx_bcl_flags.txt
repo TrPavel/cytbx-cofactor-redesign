@@ -1,0 +1,15 @@
+-parser:protocol BCL_ligand.xml
+-in:file:s cytbx_bcl.pdb
+-in:file:native cytbx_bcl.pdb
+-mp:scoring:hbond true
+-mp:setup:spanfiles cytbx_bcl.span
+-ignore_unrecognized_res
+-use_input_sc
+-nstruct 5
+-relax:jump_move true
+-out:file:scorefile scores.sc
+-packing:pack_missing_sidechains 0
+-mp:lipids:has_pore false
+-linmem_ig 20
+-extra_res_fa BCL.params
+-qsar:grid_dir grids
